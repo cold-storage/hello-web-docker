@@ -1,4 +1,4 @@
-## hello-web Dockerfile
+## hello-web-docker
 
 Dockerfile of johndstein/hello-web published to the public
 [Docker Registry](https://registry.hub.docker.com/u/johndstein/hello-web/).
