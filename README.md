@@ -7,7 +7,7 @@ Spins up a web app that says hello with host and port info.
 
 ### Running the Image
 
-    docker run -d -p 1337:1337 johndstein/hello-web
+    $ docker run -d -p 1337:1337 johndstein/hello-web
 
 ### Usage
 
@@ -17,7 +17,7 @@ Spins up a web app that says hello with host and port info.
 If you would like to display the hostname of the host instead of the docker 
 image, run like this. You can specify any port you like. 1337 is the default.
 
-    docker run -d --net=host johndstein/hello-web /data/index.js 1337
+    $ docker run -d --net=host johndstein/hello-web /data/index.js 1337
 
 Now you get the actual hostname.
 
