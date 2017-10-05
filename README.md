@@ -1,25 +1,15 @@
 ## hello-web-docker
 
-Dockerfile of johndstein/hello-web published to the public
-[Docker Registry](https://registry.hub.docker.com/u/johndstein/hello-web/).
+Dockerfile of johndstein/hw published to the public
+[Docker Registry](https://registry.hub.docker.com/u/johndstein/hw/).
 
-Spins up a web app that says hello with host and port info.
+Spins up a web app that displays docker host and port.
 
 ### Running the Image
 
-    $ docker run -d -p 1337:1337 johndstein/hello-web
+    docker run -d -e PORT=1330 -p 1330:1330 johndstein/hw
 
 ### Usage
 
-    $ curl localhost:1337
-    <h1>http://3c9cc49ab61f:1337 says hello!</h1>
-
-If you would like to display the hostname of the host instead of the docker 
-image, run like this. You can specify any port you like. 1337 is the default.
-
-    $ docker run -d --net=host johndstein/hello-web /data/index.js 1337
-
-Now you get the actual hostname.
-
-    $ curl localhost:1337
-    <h1>http://abccorp.local:1337 says hello!</h1>
+    $ curl localhost:1330
+    hostname:port 9748a497d530:1330

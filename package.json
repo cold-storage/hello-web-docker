@@ -1,0 +1,11 @@
+{
+  "name": "hello-web-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johndstein/hello-web-docker.git"
+  },
+  "author": "John Stein",
+  "license": "Unlicense"
+}

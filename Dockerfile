@@ -1,3 +1,3 @@
-FROM node:latest
-COPY index.js /data/
-CMD ["/data/index.js"]
+FROM node:slim
+COPY index.js /
+CMD /index.js
